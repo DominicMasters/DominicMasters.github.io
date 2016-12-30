@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Example of Bootstrap 3 One Column Grid Layout for All Devices</title>
+  <!-- Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+  integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <!-- Google Maps -->
+  <!-- <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script> -->
+
+  <!-- <script src="./bower_components/jquery/dist/jquery.min.js"></script>
+  <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <script src="./bower_components/bootstrap/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+
+  <style type="text/css">
+  /* Some custom styles to beautify this example */
+  .banner{
+    padding: 0px;
+    font-size: 50px;
+    height: 500px;
+    background: #dbdfe5;
+    margin-bottom: 00px;
+    position: relative;
+  }
+  .section{
+    /*padding: 5px;*/
+    font-size: 18px;
+    min-height: 300px;
+    background: #dbdfe5;
+    margin-bottom: 10px;
+    /*min-height:100%;*/
+  }
+  .section.bg-alt{
+    background: #abb1b8;
+  }
+  .section-content{
+    padding: 1px;
+    margin:0px 20px 20px 20px;
+  }
+  .nav-wrapper{
+    margin: 20px;
+    font-size: 18px;
+  }
+  /*.affix{
+  top: 0;
+  }*/
+  .Flexible-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 20px
+  }
+
+  .Flexible-container iframe,
+  .Flexible-container object,
+  .Flexible-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  </style>
+</head>
+<body >
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="banner">
+          <p>Beth and Doms Wedding 1st July 2017</p>
+          <p>[Large welcome photo]</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="nav-wrapper">
+          <!-- <ul class="nav nav-pills" data-spy="affix" data-offset-top="500"> -->
+          <ul class="nav nav-pills">
+            <li><a href="#">Home</a></li>
+            <li><a href="#venue">Venue</a></li>
+            <li><a href="#saturday">Saturday</a></li>
+            <li><a href="#sunday">Sunday</a></li>
+            <li><a href="#accomodation">Accomodation</a></li>
+            <li><a href="#rsvp">RSVP</a></li>
+            <li><a href="#photos">Photos</a></li>
+            <li><a href="#gifts">Gifts</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Open the output in a new blank tab (Click the arrow next to "Show Output" button) and resize the browser window to understand how the Bootstrap responsive grid system works. -->
+  <div class="container">
+    <!--Row with single column-->
+    <div class="row" id="venue">
+      <div class="col-xs-12">
+        <div class="section">
+          <div class="section-content">
+            <h2>Venue</h2>
+            <div class="container-fluid">
+              <div class="col-xs-12 col-md-5">
+                <p>Heath Barn<br>
+                  Donnington<br>
+                  Moreton-in-Marsh<br>
+                  GL56 0XU</p>
+                </div>
+                <div class="col-xs-12 col-md-7">
+                  <div class="Flexible-container">
+                    <iframe width="500" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDGVhrM5cEWkTqkYva191-xmG25j-dpF3Q&q=Hearth+Barn,Donnington&zoom=12" allowfullscreen>
+                    </iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Row with single column-->
+      <div class="row"  id="saturday">
+        <div class="col-xs-12">
+          <div class="section  bg-alt">
+            <div class="section-content">
+              <h2>Saturday</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Row with single column-->
+      <div class="row"  id="sunday">
+        <div class="col-xs-12">
+          <div class="section">
+            <div class="section-content">
+              <h2>Sunday</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Row with single column-->
+      <div class="row" id="accomodation">
+        <div class="col-xs-12">
+          <div class="section bg-alt">
+            <div class="section-content">
+              <h2>Accomodation</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Row with single column-->
+      <div class="row" id="rsvp">
+        <div class="col-xs-12">
+          <div class="section">
+            <div class="section-content">
+              <h2>RSVP</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Row with single column-->
+      <div class="row" id="photos">
+        <div class="col-xs-12">
+          <div class="section bg-alt">
+            <div class="section-content">
+              <h2>Photos</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Row with single column-->
+      <div class="row" id="gifts">
+        <div class="col-xs-12">
+          <div class="section">
+            <div class="section-content">
+              <h2>Gifts</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+
+
+    <script>
+    function myMap() {
+      var loc = {lat: 51.960737, lng: -1.709552};
+      // var loc = "GL560XU";
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 12,
+        center: loc
+      });
+      var marker = new google.maps.Marker({
+        position: loc,
+        map: map
+      });
+    }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+  </body>
+  </html>
