@@ -200,15 +200,16 @@ Donate to remove backlink form the site
         </div>
       </div>
       <div class="row mrgn30">
-        <div class="col-sm-12 col-md-offset-2 col-md-8">
+        <!-- <div class="col-sm-12 col-md-offset-2 col-md-8">
           <form action="https://formspree.io/dominico@hotmail.co.uk"
                 method="POST">
               <input type="text" name="name">
               <input type="email" name="_replyto">
               <input type="submit" value="Send">
-          </form>
+          </form> -->
           <!--NOTE: Update your email Id in "contact_me.php" file in order to receive emails from your contact form-->
-          <form  novalidate>
+          <form action="https://formspree.io/dominico@hotmail.co.uk"
+                method="POST" novalidate>
             <h3>Contact Form</h3>
             <div class="control-group">
               <div class="controls">
@@ -219,6 +220,7 @@ Donate to remove backlink form the site
                 <input type="email" class="form-control" placeholder="Email" name="_replyto"
                 id="email" required
                 data-validation-required-message="Please enter your email" />
+                
                 <textarea rows="10" cols="100" class="form-control"
                 placeholder="Message" id="message" required
                 data-validation-required-message="Please enter your message" minlength="5"
