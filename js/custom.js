@@ -98,14 +98,14 @@ var customScripts = {
 }
 $('document').ready(function () {
 	 $.backstretch([
-      "images/BD/IMG_0102.jpg"
-    , "images/BD/IMG_1998.jpg"
-  , "images/BD/IMG_1541.jpg"
-, "images/BD/IMG_1353.jpg"
-, "images/BD/IMG_1997.jpg"
-, "images/BD/IMG_1442.jpg"
-, "images/BD/IMG_0512.jpg"
-, "images/BD/IMG_0627.jpg"
+      "images/IMG_0102.jpg"
+    , "images/IMG_1998.jpg"
+  , "images/IMG_1541.jpg"
+, "images/IMG_1353.jpg"
+, "images/IMG_1997.jpg"
+, "images/IMG_1442.jpg"
+, "images/IMG_0512.jpg"
+, "images/IMG_0627.jpg"
   ], {duration: 3000, fade: 1250});
 
     customScripts.init();
