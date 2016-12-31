@@ -3,9 +3,9 @@ Author URI: http://webthemez.com/
 Donate to remove backlink form the template.
 */
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,700);
-@import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
 * {
 	margin: 0;
 	padding: 0;
@@ -80,9 +80,9 @@ h1, h2, h3, h4, h5, h6, #home .heading strong {
 }
 .form-control {
 	border: none;
-	padding: 22px 4px;
+	padding: 0px;
 	outline: none;
-	color: #FFFFFF;
+	color: #0D6E4A;
 	margin: 0;
 	width: 210px;
 	max-width: 100%;
@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5, h6, #home .heading strong {
 	background: rgba(255,255,255,0.35);
 }
 a {
-	color: #DBFB4A;
+	color: #0D6E4A;
 	text-decoration: none;
 	text-shadow: none;
 	-webkit-transition: all 0.2s linear;
@@ -122,6 +122,10 @@ a {
 }
 a:hover {
 	color: #000;
+	text-decoration: none;
+}
+a:focus {
+	color: #0D6E4A;
 	text-decoration: none;
 }
 .btn {
@@ -180,7 +184,7 @@ a:hover {
 	z-index: 5;
 }
 .topHome:hover {
-	color: #F89F9F;
+	color: #0D6E4A;
 }
 h2, .h2 {
 	font-size: 43px;
@@ -367,7 +371,7 @@ h2, .h2 {
 	/* background: url('../images/dots.png'); */
 	background-repeat: repeat;
 	height: 700px;
-	background: rgba(173, 224, 205, 0.1);
+	background: rgba(173, 224, 205, 0.15);
 }
 /* wtMenu
 ----------------------------------------------*/
@@ -454,7 +458,7 @@ h2, .h2 {
 /* Header
 ----------------------------------------------*/
 #section-top {
-	background: #4E4E4E;
+	background: #0D6E4A;
 }
 #section-top ul {
 	margin: 0;
@@ -615,7 +619,7 @@ h2, .h2 {
 }
 /***************************************/
 #counter {
-background: rgba(173, 224, 205, 0.1);
+background: rgba(173, 224, 205, 0.15);
 padding: 15px 0;
 }
 .page-section h1 {
@@ -662,7 +666,7 @@ padding: 15px 0;
 	width: 60px;
 }
 a.arrow-link {
-	color: #FFD500;
+	color: #0D6E4A;
 }
 a.arrow-link:hover {
 	color: #fff;
