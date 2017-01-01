@@ -97,7 +97,14 @@ var customScripts = {
     }
 }
 $('document').ready(function () {
-	 $.backstretch(["./images/flowers.jpg"
+	 $.backstretch(["./images/IMG0102.JPG"
+   , "./images/IMG1998.JPG"
+   , "./images/IMG1541.JPG"
+   , "./images/IMG1353.JPG"
+   , "./images/IMG1997.JPG"
+   , "./images/IMG1442.JPG"
+   , "./images/IMG0512.JPG"
+   , "./images/IMG0627.JPG"
   ], {duration: 3000, fade: 1250});
 
     customScripts.init();
