@@ -97,15 +97,7 @@ var customScripts = {
     }
 }
 $('document').ready(function () {
-	 $.backstretch([
-   "./images/IMG0102.jpg"
-   , "./images/IMG1998.jpg"
-   , "./images/IMG1541.jpg"
-   , "./images/IMG1353.jpg"
-   , "./images/IMG1997.jpg"
-   , "./images/IMG1442.jpg"
-   , "./images/IMG0512.jpg"
-   , "./images/IMG0627.jpg"
+	 $.backstretch(["./images/flowers.jpg"
   ], {duration: 3000, fade: 1250});
 
     customScripts.init();
