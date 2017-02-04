@@ -1143,6 +1143,7 @@ hr.heart_rule:after {
 	background: #FFFFFF;
 	color: #ADE0CD;
 	font-size: 18px;
+  text-decoration: none;
 }
 
 /* light theme */
