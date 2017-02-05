@@ -97,15 +97,26 @@ var customScripts = {
     }
 }
 $('document').ready(function () {
-	 $.backstretch(["./images/IMG0102.JPG"
-   , "./images/IMG1998.JPG"
-   , "./images/IMG1541.JPG"
-   , "./images/IMG1353.JPG"
-   , "./images/IMG1997.JPG"
-   , "./images/IMG1442.JPG"
-   , "./images/IMG0512.JPG"
-   , "./images/IMG0627.JPG"
-  ], {duration: 3000, fade: 1250});
+	 $.backstretch([
+   "./images/IMG1997.JPG"
+    , "./images/IMG_2378.JPG"
+   ,"./images/IMG_2416.JPG"
+ ,"./images/IMG_2461.JPG"
+,"./images/IMG_2488.JPG"
+,"./images/IMG_2517.JPG"
+,"./images/IMG0068.JPG"
+,"./images/IMG0560.JPG"
+,"./images/IMG0102.JPG"
+,"./images/IMG0566.JPG"
+,"./images/IMG1257.JPG"
+,"./images/IMG1508.JPG"
+,"./images/IMG1541.JPG"
+,"./images/IMG1999.JPG"
+,"./images/IMG2002.JPG"
+,"./images/IMG2012.JPG"
+,"./images/IMG2020.JPG"
+, "./images/IMG1353.JPG"
+  ], {duration: 1000, fade: 1250});
 
     customScripts.init();
 	$('#events .col-md-3, #features, #aboutUs, #clients, #portfolio, #plans, #contactUs .parlex-back').css('opacity','0');
