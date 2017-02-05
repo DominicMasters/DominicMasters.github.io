@@ -116,7 +116,7 @@ $('document').ready(function () {
 ,"./images/IMG2012.JPG"
 ,"./images/IMG2020.JPG"
 , "./images/IMG1353.JPG"
-  ], {duration: 1000, fade: 1250});
+  ], {duration: 3000, fade: 1250});
 
     customScripts.init();
 	$('#events .col-md-3, #features, #aboutUs, #clients, #portfolio, #plans, #contactUs .parlex-back').css('opacity','0');
