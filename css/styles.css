@@ -1148,3 +1148,7 @@ hr.heart_rule:after {
 
 /* light theme */
 #light p { color : grey; }
+
+.form-control {
+  margin-bottom: 0;
+}
