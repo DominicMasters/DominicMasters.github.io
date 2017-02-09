@@ -25,10 +25,10 @@ body {
 	-moz-transition: all 0.3s linear;
 	-o-transition: all 0.3s linear;
 }
-::selection {
+/*::selection {
 	color: #fff;
 	background: #F049B2;
-}
+}*/
 
 ::-moz-selection {
  color: #fff;
@@ -1149,6 +1149,45 @@ hr.heart_rule:after {
 /* light theme */
 #light p { color : grey; }
 
+#navbar li {
+float:left;
+	font-size: 24px;
+}
+
+/*
 .form-control {
   margin-bottom: 0;
 }
+
+.navbar-brand .navbar-inner {
+    padding: 0;
+}
+
+.navbar-brand .nav {
+    margin: 0;
+    display: table;
+    width: 100%;
+}
+
+.navbar-brand .nav li {
+    display: table-cell;
+    width: 1%;
+    float: none;
+}
+
+.navbar-brand .nav li a {
+    font-weight: bold;
+    text-align: center;
+    border-left: 1px solid rgba(255, 255, 255, .75);
+    border-right: 1px solid rgba(0, 0, 0, .1);
+}
+
+.navbar-brand .nav li:first-child a {
+    border-left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.navbar-brand .nav li:last-child a {
+    border-right: 0;
+    border-radius: 0 3px 3px 0;
+}*/
